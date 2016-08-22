@@ -1,11 +1,4 @@
--- phpMyAdmin SQL Dump
--- version 4.4.14
--- http://www.phpmyadmin.net
---
--- Host: 127.0.0.1
--- Generation Time: Aug 22, 2016 at 10:48 AM
--- Server version: 5.6.26
--- PHP Version: 5.6.12
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -38,8 +31,6 @@ CREATE TABLE IF NOT EXISTS `game` (
 -- Dumping data for table `game`
 --
 
-INSERT INTO `game` (`id`, `messageID`, `word`, `soFar`, `state`) VALUES
-(1, 1, 'lwkrmwkfm', 'lekfwlekfl', 1);
 
 --
 -- Indexes for dumped tables

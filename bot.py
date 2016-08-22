@@ -7,7 +7,7 @@ from pprint import pprint
 
 
 #Open database connection (replace as needed)
-db = MySQLdb.connect(address, user, password, dbname)
+db = MySQLdb.connect(host, dbuser, password, dbname)
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
